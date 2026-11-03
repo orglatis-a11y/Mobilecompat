@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "mobilecompat",
+  "version": "${version}",
+  "name": "Mobile Compat",
+  "description": "Detects Pojav-style mobile launchers, applies phone-friendly defaults, and reports which installed mods bundle native code that won't run on ARM/Android.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.mobilecompat.MobileCompat"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
